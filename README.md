@@ -1,4 +1,4 @@
-#工程详解
+# 工程详解
 * microservicecloud 父模块
 * microservicecloud-api 通用模块
 * microservicecloud-provider-dept-8001 服务提供者集群
@@ -9,7 +9,7 @@
 * microservicecloud-eureka-7002 eureka注册中心集群
 * microservicecloud-eureka-7003 eureka注册中心集群
 
-#新建本地数据库
+# 新建本地数据库
 ```
 DROP DATABASE IF EXISTS cloudDB01;
 CREATE DATABASE cloudDB01 CHARACTER SET UTF8;
