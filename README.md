@@ -50,3 +50,9 @@ INSERT INTO clouddb03.dept(dname,db_source) VALUES ('开发部','cloudDB03');
 INSERT INTO clouddb03.dept(dname,db_source) VALUES ('人事部','cloudDB03');
 INSERT INTO clouddb03.dept(dname,db_source) VALUES ('财务部','clouddb03');
 ```
+# host文件设置
+```
+127.0.0.1 eureka7001.com
+127.0.0.1 eureka7002.com
+127.0.0.1 eureka7003.com
+```
