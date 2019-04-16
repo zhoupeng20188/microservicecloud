@@ -3,10 +3,7 @@ package com.controller;
 import com.service.DeptService;
 import com.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,5 +20,9 @@ public class DeptController {
     @RequestMapping(value = "/dept/list",method = RequestMethod.GET)
     public List<Dept> list(){
         return deptService.findALl();
+    }
+    @RequestMapping(value = "/dept/add",method = RequestMethod.POST)
+    public Boolean add(@RequestBody Dept dept){
+        return deptService.addDept(dept);
     }
 }
