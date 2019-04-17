@@ -10,8 +10,9 @@ import java.util.List;
 
 /**
  * 接口需要和服务提供者里的接口保持一致，实际上是通过微服务名来调用服务提供者里的方法
+ * 指定fallbackFactory后，如果服务宕掉，可以执行factory里的降级方法
  */
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface DeptClientService {
     @RequestMapping("/dept/add")
     public boolean add(Dept dept);
