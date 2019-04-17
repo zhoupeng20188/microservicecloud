@@ -1,7 +1,7 @@
 package com.service;
 
 import com.dao.DeptDao;
-import com.entities.Dept;
+import com.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

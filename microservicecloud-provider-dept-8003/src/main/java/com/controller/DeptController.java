@@ -1,7 +1,8 @@
 package com.controller;
 
 import com.service.DeptService;
-import com.entities.Dept;
+import com.springcloud.service.DeptClientService;
+import com.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;

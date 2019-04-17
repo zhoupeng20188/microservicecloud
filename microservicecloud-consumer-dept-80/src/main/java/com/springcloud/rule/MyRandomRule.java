@@ -1,4 +1,4 @@
-package com.rule;
+package com.springcloud.rule;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;

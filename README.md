@@ -1,10 +1,21 @@
+# 用到技术
+* Mybatis
+* Druid
+* SpringCloud Eureka
+* SpringCloud Ribbon
+* SpringCloud Feign
+* SpringCloud Hystrix
+* SpringCloud Zuul
+* SpringCloud Config
+
 # 工程详解
 * microservicecloud 父模块
 * microservicecloud-api 通用模块
 * microservicecloud-provider-dept-8001 服务提供者集群
 * microservicecloud-provider-dept-8001 服务提供者集群
 * microservicecloud-provider-dept-8001 服务提供者集群
-* microservicecloud-consumer-dept-80 服务消费者
+* microservicecloud-consumer-dept-80 服务消费者（内含Ribbon负载均衡）
+* microservicecloud-consumer-dept-feign 服务消费者（内含Feign）
 * microservicecloud-eureka-7001 eureka注册中心集群
 * microservicecloud-eureka-7002 eureka注册中心集群
 * microservicecloud-eureka-7003 eureka注册中心集群
