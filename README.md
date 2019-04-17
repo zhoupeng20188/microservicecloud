@@ -21,6 +21,9 @@
 * microservicecloud-eureka-7001 eureka注册中心集群
 * microservicecloud-eureka-7002 eureka注册中心集群
 * microservicecloud-eureka-7003 eureka注册中心集群
+* microservicecloud-zuul-gateway-9527网关
+* microservicecloud-config-3344 Config Server
+* microservicecloud-config-3355 Config Client
 
 # 新建本地数据库
 ```
