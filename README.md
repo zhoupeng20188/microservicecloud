@@ -17,6 +17,7 @@
 * microservicecloud-provider-dept-8003 服务提供者集群
 * microservicecloud-consumer-dept-80 服务消费者（内含Ribbon负载均衡）
 * microservicecloud-consumer-dept-feign 服务消费者（内含Feign）
+* microservicecloud-consumer-dept-hystrix-8001 服务消费者（内含hystrix）
 * microservicecloud-eureka-7001 eureka注册中心集群
 * microservicecloud-eureka-7002 eureka注册中心集群
 * microservicecloud-eureka-7003 eureka注册中心集群
@@ -67,4 +68,5 @@ INSERT INTO clouddb03.dept(dname,db_source) VALUES ('财务部','clouddb03');
 127.0.0.1 eureka7001.com
 127.0.0.1 eureka7002.com
 127.0.0.1 eureka7003.com
+127.0.0.1 myzuul.com
 ```
